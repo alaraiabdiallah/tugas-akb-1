@@ -64,6 +64,7 @@
                 android:background="@drawable/custom_button_1"
                 android:fontFamily="@font/nunito_bold"
                 android:text="Masuk"
+                android:textAllCaps="false"
                 android:textFontWeight="800"></Button>
 
         </LinearLayout>
@@ -99,6 +100,7 @@
             android:fontFamily="@font/nunito_bold"
             android:text="@string/regis_btn"
             android:textColor="#ffffff"
+            android:textAllCaps="false"
             android:textFontWeight="800"></Button>
     </LinearLayout>
 

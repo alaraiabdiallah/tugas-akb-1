@@ -8,56 +8,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#39a7a7a7"
-        android:gravity="center"
+        android:paddingVertical="65dp"
         android:layout_weight="5">
-        <RelativeLayout
+        <LinearLayout
+            android:paddingHorizontal="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center">
-            <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ic_get_start_timitory" />
-            </LinearLayout>
+                style="@style/HeadingText"
+                android:textSize="30sp"
+                android:text="Beres! Sekarang kamu sudah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="@string/app_greet"
-                android:textSize="27sp"
-                android:layout_marginTop="54dp"
-                android:textColor="#000"
-                android:fontFamily="@font/nunito_bold"
-                android:layout_gravity="center_horizontal" />
-        </RelativeLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="#55000000"
-        />
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:paddingHorizontal="30dp"
+        android:background="#39a7a7a7"
         android:gravity="center">
 
         <Button
-            android:id="@+id/mulai_button"
+            android:id="@+id/submit_button"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/custom_button_1"
             android:fontFamily="@font/nunito_bold"
-            android:text="@string/app_greet_btn"
+            android:text="Oke"
             android:textAllCaps="false"
+            android:paddingHorizontal="50dp"
             android:textFontWeight="800"></Button>
     </LinearLayout>
 

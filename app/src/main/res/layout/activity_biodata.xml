@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#39a7a7a7"
+        android:paddingVertical="65dp"
+        android:layout_weight="5">
+        <LinearLayout
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/HeadingText"
+                android:text="Nama Panggilan Kamu"/>
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginVertical="12dp"
+                android:inputType="text"
+                android:hint="Contoh: Budi"
+                android:fontFamily="@font/rubik_regular"
+                android:paddingBottom="25dp"
+                android:textAllCaps="true"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/HeadingText"
+                android:text="Umur Kamu"/>
+
+            <EditText
+                android:id="@+id/umur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingBottom="25dp"
+                android:layout_marginVertical="12dp"
+                android:inputType="text"
+                android:hint="Contoh: 12"
+                android:fontFamily="@font/rubik_regular"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingHorizontal="30dp"
+        android:background="#39a7a7a7"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_1"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Selanjutnya"
+            android:paddingHorizontal="50dp"
+            android:textAllCaps="false"
+            android:textFontWeight="800"></Button>
+    </LinearLayout>
+
+</LinearLayout>
