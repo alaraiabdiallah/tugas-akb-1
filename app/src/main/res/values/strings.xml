@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Tugas AKB 1</string>
     <string name="app_greet">Monitory Membantu Anda Mengontrol HP Anak</string>
+    <string name="app_greet_btn">Mulai</string>
+    <string name="regis_btn">Beli Kode Keluarga Disini</string>
 </resources>
